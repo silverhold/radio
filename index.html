@@ -1,0 +1,255 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="doc/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="h1">Custom Radio</h1>
+            <h2 class="small" style="margin: 0 0 30px;">designed by <a href="https://www.behance.net/clementmenant" title="Clément Menant Behance">Clément Menant</a> and <a href="https://twitter.com/earvinpepper" title="Loïc Goyet Twitter page">Loïc Goyet</a> for <a href="http://appventus.com/" title="Agence web et mobile à Nantes">AppVentus</a></h2>
+
+            <p style="margin-bottom: 30px;">This is some css that allow you to style (in CSS3 and HTML5) the <code><span class="open-tag tag">input <span class="attr">type=</span><span class="value">radio</span></span></code> elements as a Custom Radio</p>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <h2 class="h4">Dependencies Required</h2>
+                            <span class="label label-default">no dependencies required</span>
+                        </div>
+
+                        <div class="col-xs-6 border-left">
+                            <h2 class="h4">Available for</h2>
+                            <span class="label label-danger">CSS</span>
+                            <span class="label label-danger">LESS</span>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <h2 class="h4">Getting Started</h2>
+
+                    <p>To enjoy it just link to your template or to your stylesheet the <code>css/style.css</code> file.</p>
+
+                    <p>You can also use the less file available at <code>less/style.less</code>. With this file you can overide easily customize the <a href="#less-variables">Less variables listed below</a> in order to define colors, sizes and more.</p>
+
+                    <hr>
+
+                    <h2 class="h4">Bower usage</h2>
+                    <p>Install and manage Custom Radio using Bower.</p>
+                    <code>$ bower install custom-radio</code>
+                    
+
+                    <hr>
+
+                    <h2 class="h4" id="less-variables">Less Variables</h2>
+                    <p>The variables are divided in two categories, the <code>modules</code> and the <code>themes</code>. The module variables change the structure and the behave of the component in your template. The theme just change the look without size or layout consequences. Those two kinds of variables are called <code>parameters</code> and you can find them in <code>/less/parameters</code></p>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio_transitionDuration</strong>: 100ms
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-primary">M</span>
+                            <strong>@customRadio_transitionDuration</strong>: 100ms
+                        </li>
+                    </ul>
+
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span class="label label-primary">M</span>
+                            <strong>@customRadio_height</strong>: 20px
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-primary">M</span>
+                            <strong>@customRadio_width</strong>: 20px
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-primary">M</span>
+                            <strong>@customRadio_borderWidth</strong>: 1px
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio_borderColor</strong>: #cdcdcd
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio_borderColor-_hover</strong>: @customRadio_borderColor
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio_borderColor-_checked</strong>: @customRadio_borderColor
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio_borderColor-_hover-_checked</strong>: @customRadio_borderColor
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio_bgColor</strong>: white
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio_bgColor-_hover</strong>: @customRadio_bgColor
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio_bgColor-_checked</strong>: @customRadio_bgColor
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio_bgColor-_hover-_checked</strong>: @customRadio_bgColor
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio_boxShadow</strong>: 0 1px 5px 0 fade(#333, 15%)
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio_boxShadow-_hover</strong>: @customRadio_boxShadow
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio_boxShadow-_checked</strong>: @customRadio_boxShadow
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio_boxShadow-_hover-_checked</strong>: @customRadio_boxShadow
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio_opacity-_disabled</strong>: 0.50
+                        </li>
+                    </ul>
+
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span class="label label-primary">M</span>
+                            <strong>@customRadio-label_marginLeft</strong>: 15px
+                        </li>
+                    </ul>
+
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span class="label label-primary">M</span>
+                            <strong>@customRadio-witness_height</strong>: 8px
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-primary">M</span>
+                            <strong>@customRadio-witness_width</strong>: 8px
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="label label-danger">T</span>
+                            <strong>@customRadio-witness_bgColor</strong>: #e36566
+                        </li>
+                    </ul>
+
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="doc-section">
+                        <div class="doc-title">
+                            Custom Radio normal
+                        </div>
+
+                        <div class="doc-example">
+                            <input class="customRadio" id="example-1" type="radio">
+                            <label for="example-1">Label</label>
+                        </div>
+
+                        <code class="doc-code" data-lang="html">
+                            <span class="open-tag tag">input <span class="attr">class=</span><span class="value">customRadio</span> <span class="attr">id=</span><span class="value">example-1</span> <span class="attr">type=</span><span class="value">radio</span></span>
+                            <br>
+                            <span class="open-tag tag">label <span class="attr">for=</span><span class="value">example-1</span></span>Label<span class="close-tag tag">label</span>
+                        </code>
+                    </div>
+
+                    <hr>
+
+                    <div class="doc-section">
+                        <div class="doc-title">
+                            Custom Radio checked
+                        </div>
+                        <div class="doc-example">
+                            <input class="customRadio" type="radio" id="customRadio-example-2" checked>
+                            <label for="customRadio-example-2">Label Checked</label>
+                        </div>
+
+                        <code class="doc-code" data-lang="html">
+                            <span class="open-tag tag">input <span class="attr">class=</span><span class="value">customRadio</span> <span class="attr">id=</span><span class="value">customRadio-example-2</span> <span class="attr">type=</span><span class="value">radio</span> <span class="attr">checked</span></span>
+                            <br>
+                            <span class="open-tag tag">label <span class="attr">for=</span><span class="value">customRadio-example-2</span></span>Label<span class="close-tag tag">label</span>
+                        </code>
+                    </div>
+
+                    <hr>
+
+                    <div class="doc-section">
+                        <div class="doc-title">
+                            Custom Radio disabled
+                        </div>
+                        <div class="doc-example">
+                            <input class="customRadio" type="radio" id="customRadio-example-3" disabled>
+                            <label for="customRadio-example-3">Label Disabled</label>
+                        </div>
+
+                        <code class="doc-code" data-lang="html">
+                            <span class="open-tag tag">input <span class="attr">class=</span><span class="value">customRadio</span> <span class="attr">id=</span><span class="value">customRadio-example-3</span> <span class="attr">type=</span><span class="value">radio</span> <span class="attr">disabled</span></span>
+                            <br>
+                            <span class="open-tag tag">label <span class="attr">for=</span><span class="value">customRadio-example-3</span></span>Label<span class="close-tag tag">label</span>
+                        </code>
+                    </div>
+
+                    <hr>
+
+                    <div class="doc-section">
+                        <div class="doc-title">
+                            Custom Radio disabled & checked
+                        </div>
+                        <div class="doc-example">
+                            <input class="customRadio" type="radio" id="customRadio-example-4" checked disabled>
+                            <label for="customRadio-example-4">Label Disabled</label>
+                        </div>
+
+                        <code class="doc-code" data-lang="html">
+                            <span class="open-tag tag">input <span class="attr">class=</span><span class="value">customRadio</span> <span class="attr">id=</span><span class="value">customRadio-example-4</span> <span class="attr">type=</span><span class="value">radio</span> <span class="attr">disabled</span> <span class="attr">checked</span></span>
+                            <br>
+                            <span class="open-tag tag">label <span class="attr">for=</span><span class="value">customRadio-example-4</span></span>Label<span class="close-tag tag">label</span>
+                        </code>
+                    </div>
+                    
+                    <br>
+
+                    <p class="small text-right">with love from Nantes</p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </body>
+</html>

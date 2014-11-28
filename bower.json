@@ -1,0 +1,11 @@
+{
+  "name": "customRadio",
+  "main": "index.html",
+  "homepage": "https://github.com/LoicGoyet/customRadio",
+  "authors": [
+    "Loic Goyet <loic.goyet@gmail.com> (https://twitter.com/earvinpepper)",
+    "Clement Menant <c.menant@ymail.com> (https://www.behance.net/clementmenant)"
+  ],
+  "description": "This is some css that allow you to style (in CSS3 and HTML5) the input type=radio elements as a Custom Radio",
+  "license": "MIT"
+}

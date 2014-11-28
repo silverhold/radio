@@ -1,0 +1,121 @@
+  //////////////////
+ // Custom Radio //
+//////////////////
+
+// Resources
+////////////
+
+@import 'parameters/module';
+@import 'parameters/theme';
+
+
+
+// Style
+////////
+
+.customRadio {
+    display: none;
+
+    + label {
+        line-height: @customRadio_height;
+        display: inline-block;
+        position: relative;
+        padding-left: @customRadio-label_marginLeft + @customRadio_width;
+        cursor: pointer;
+
+        &:before {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: FontAwesome;
+            position: absolute;
+            left: 0;
+            content: '';
+            display: inline-block;
+            height: @customRadio_height;
+            width: @customRadio_width;
+            background-color: @customRadio_bgColor;
+            border-width: @customRadio_borderWidth;
+            border-style: solid;
+            border-color: @customRadio_borderColor;
+            text-align: center;
+            line-height: @customRadio_height - 2;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            -webkit-box-shadow: @customRadio_boxShadow;
+            -moz-box-shadow: @customRadio_boxShadow;
+            -ms-box-shadow: @customRadio_boxShadow;
+            -o-box-shadow: @customRadio_boxShadow;
+            box-shadow: @customRadio_boxShadow;
+        }
+
+        &:after {
+            content: none;
+            width: @customRadio-witness_height;
+            height: @customRadio-witness_width;
+            background-color: @customRadio-witness_bgColor;
+            -webkit-border-radius: @customRadio-witness_width;
+            -moz-border-radius: @customRadio-witness_width;
+            border-radius: @customRadio-witness_width;
+            position: absolute;
+            top: (@customRadio_height - @customRadio-witness_height) / 2;
+            left: (@customRadio_width - @customRadio-witness_width) / 2;
+        }
+
+        &:hover,
+        &:focus {
+            &:before {
+                -webkit-box-shadow: @customRadio_boxShadow-_hover;
+                -moz-box-shadow: @customRadio_boxShadow-_hover;
+                -ms-box-shadow: @customRadio_boxShadow-_hover;
+                -o-box-shadow: @customRadio_boxShadow-_hover;
+                box-shadow: @customRadio_boxShadow-_hover;
+                background-color: @customRadio_bgColor-_hover;
+                border-color: @customRadio_borderColor-_hover;
+            }
+        }
+    }
+
+    &:checked {
+        + label {
+            &:before {
+                -webkit-box-shadow: @customRadio_boxShadow-_checked;
+                -moz-box-shadow: @customRadio_boxShadow-_checked;
+                -ms-box-shadow: @customRadio_boxShadow-_checked;
+                -o-box-shadow: @customRadio_boxShadow-_checked;
+                box-shadow: @customRadio_boxShadow-_checked;
+                background-color: @customRadio_bgColor-_checked;
+                border-color: @customRadio_borderColor-_checked;
+            }
+
+            &:hover,
+            &:focus {
+                &:before {
+                    -webkit-box-shadow: @customRadio_boxShadow-_hover-_checked;
+                    -moz-box-shadow: @customRadio_boxShadow-_hover-_checked;
+                    -ms-box-shadow: @customRadio_boxShadow-_hover-_checked;
+                    -o-box-shadow: @customRadio_boxShadow-_hover-_checked;
+                    box-shadow: @customRadio_boxShadow-_hover-_checked;
+                    background-color: @customRadio_bgColor-_hover-_checked;
+                    border-color: @customRadio_borderColor-_hover-_checked;
+                }
+            }
+
+            &:after {
+                content: '';
+            }
+        }
+    }
+
+    &:disabled {
+        + label {
+            cursor: no-drop;
+
+            &:before,
+            &:after {
+                opacity: @customRadio_opacity-_disabled;
+            }
+        }
+    }
+}

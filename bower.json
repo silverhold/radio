@@ -1,6 +1,7 @@
 {
   "name": "customRadio",
   "main": "index.html",
+  "version": "1.0",
   "homepage": "https://github.com/LoicGoyet/customRadio",
   "authors": [
     "Loic Goyet <loic.goyet@gmail.com> (https://twitter.com/earvinpepper)",

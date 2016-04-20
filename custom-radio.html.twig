@@ -1,0 +1,11 @@
+<ul class="custom-radios{% if inline|default(false) %} custom-radios--inline{% endif %}">
+    {% for choice in choices %}
+        <li class="custom-radios__item">
+            <label class="custom-radio" for="{{ choice.id }}">
+                <input class="custom-radio__input" type="radio" name="{{ name }}" id="{{ choice.id }}">
+                <span class="custom-radio__fake"></span>
+                <label class="custom-radio__label" for="{{ choice.id }}">{{ choice.label }}</label>
+            </label>
+        </li>
+    {% endfor %}
+</ul>

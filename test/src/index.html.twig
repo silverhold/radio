@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" charset="utf-8">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+        {% include '../../custom-radio.html.twig' with {
+            'name': 'example-1',
+            'inline': true,
+            'choices': [{
+                'id': 'example-inline-one',
+                'label': 'example inline one',
+            }, {
+                'id': 'example-inline-two',
+                'label': 'example inline two',
+            }, {
+                'id': 'example-inline-three',
+                'label': 'example inline three',
+            }],
+        } %}
+
+        <hr>
+
+        {% include '../../custom-radio.html.twig' with {
+            'name': 'example-2',
+            'choices': [{
+                'id': 'example-list-one',
+                'label': 'example list one',
+            }, {
+                'id': 'example-list-two',
+                'label': 'example list two',
+            }, {
+                'id': 'example-list-three',
+                'label': 'example list three',
+            }],
+        } %}
+    </body>
+</html>

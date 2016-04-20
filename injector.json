@@ -1,0 +1,11 @@
+{
+  "stylevendors": [
+    "@bower/custom-radio/custom-radio.scss"
+  ],
+  "stylegui": [
+    "@bower/custom-radio/gui/gui.scss"
+  ],
+  "gui": [
+    "@bower/custom-radio/gui/gui.html.twig"
+  ]
+}

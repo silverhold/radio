@@ -1,21 +1,21 @@
 // Custom radios
 // -------------
-$cstmrds--margin: 0;
-$cstmrds--gutter: 10px;
-$cstmrds-inline--gutter: $cstmrds--gutter;
+$cstmrds--margin: 0 !default;
+$cstmrds--gutter: 10px !default;
+$cstmrds-inline--gutter: $cstmrds--gutter !default;
 
 // Custom radio
 // ------------
-$cstmrd--size: 9px;
-$cstmrd--border-width: 2px;
-$cstmrd--margin-right: 6px;
-$cstmrd--transition-timing-function: ease;
-$cstmrd--transition-duration: 300ms;
-$cstmrd--border-color: rgb(187, 202, 210);
-$cstmrd-hover--border-color: $cstmrd--border-color;
-$cstmrd-checked--display-border: false;
-$cstmrd--bg-color: transparent;
-$cstmrd-hover--bg-color: $cstmrd--bg-color;
-$cstmrd-checked--bg-color: rgb(41, 166, 233);
-$cstmrd-label--font-size: 16px;
-$cstmrd-label--line-height: 1.4;
+$cstmrd--size: 9px !default;
+$cstmrd--border-width: 2px !default;
+$cstmrd--margin-right: 6px !default;
+$cstmrd--transition-timing-function: ease !default;
+$cstmrd--transition-duration: 300ms !default;
+$cstmrd--border-color: rgb(187, 202, 210) !default;
+$cstmrd-hover--border-color: $cstmrd--border-color !default;
+$cstmrd-checked--display-border: false !default;
+$cstmrd--bg-color: transparent !default;
+$cstmrd-hover--bg-color: $cstmrd--bg-color !default;
+$cstmrd-checked--bg-color: rgb(41, 166, 233) !default;
+$cstmrd-label--font-size: 16px !default;
+$cstmrd-label--line-height: 1.4 !default;

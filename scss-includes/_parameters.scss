@@ -1,0 +1,21 @@
+// Custom radios
+// -------------
+$cstmrds--margin: 0;
+$cstmrds--gutter: 10px;
+$cstmrds-inline--gutter: $cstmrds--gutter;
+
+// Custom radio
+// ------------
+$cstmrd--size: 9px;
+$cstmrd--border-width: 2px;
+$cstmrd--margin-right: 6px;
+$cstmrd--transition-timing-function: ease;
+$cstmrd--transition-duration: 300ms;
+$cstmrd--border-color: rgb(187, 202, 210);
+$cstmrd-hover--border-color: $cstmrd--border-color;
+$cstmrd-checked--display-border: false;
+$cstmrd--bg-color: transparent;
+$cstmrd-hover--bg-color: $cstmrd--bg-color;
+$cstmrd-checked--bg-color: rgb(41, 166, 233);
+$cstmrd-label--font-size: 16px;
+$cstmrd-label--line-height: 1.4;

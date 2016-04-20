@@ -1,3 +1,63 @@
 <section>
-  <h2>custom-radio</h2>
+    <h2>custom-radio</h2>
+
+    <h3>List</h3>
+    {% include '@bower/customRadio/custom-radio.html.twig' with {
+        'name': 'example-1',
+        'choices': [{
+            'id': 'example-list-one',
+            'label': 'example list one',
+        }, {
+            'id': 'example-list-two',
+            'label': 'example list two',
+        }, {
+            'id': 'example-list-three',
+            'label': 'example list three',
+        }],
+    } %}
+
+    <pre>{{ "{% include '@bower/customRadio/custom-radio.html.twig' with {" }}
+    {{ "'name': 'example-1'," }}
+    {{ "'choices': [{" }}
+        {{ "'id': 'example-list-one'," }}
+        {{ "'label': 'example list one'," }}
+    {{ "}, {" }}
+        {{ "'id': 'example-list-two'," }}
+        {{ "'label': 'example list two'," }}
+    {{ "}, {" }}
+        {{ "'id': 'example-list-three'," }}
+        {{ "'label': 'example list three'," }}
+    {{ "}]," }}
+{{ "} %}" }}</pre>
+
+    <h3>Inline</h3>
+    {% include '@bower/customRadio/custom-radio.html.twig' with {
+        'name': 'example-2',
+        'inline': true,
+        'choices': [{
+            'id': 'example-inline-one',
+            'label': 'example inline one',
+        }, {
+            'id': 'example-inline-two',
+            'label': 'example inline two',
+        }, {
+            'id': 'example-inline-three',
+            'label': 'example inline three',
+        }],
+    } %}
+
+    <pre>{{ "{% include '@bower/customRadio/custom-radio.html.twig' with {" }}
+    {{ "'name': 'example-2'," }}
+    {{ "'inline': true," }}
+    {{ "'choices': [{" }}
+        {{ "'id': 'example-inline-one'," }}
+        {{ "'label': 'example inline one'," }}
+    {{ "}, {" }}
+        {{ "'id': 'example-inline-two'," }}
+        {{ "'label': 'example inline two'," }}
+    {{ "}, {" }}
+        {{ "'id': 'example-inline-three'," }}
+        {{ "'label': 'example inline three'," }}
+    {{ "}]," }}
+{{ "} %}" }}</pre>
 </section>

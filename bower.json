@@ -1,11 +1,10 @@
 {
-  "name": "customRadio",
+  "name": "trowel-radio",
   "main": "index.html",
-  "version": "1.0",
-  "homepage": "https://github.com/LoicGoyet/customRadio",
+  "homepage": "https://github.com/Trowel/radio",
   "authors": [
     "Loic Goyet <loic.goyet@gmail.com>"
   ],
-  "description": "This is some css that allow you to style (in CSS3 and HTML5) the input type=radio elements as a Custom Radio",
+  "description": "A trowel component to display custom form radios",
   "license": "MIT"
 }

@@ -1,4 +1,7 @@
-Custom Radio
-============
+# Custom Radio
 
-Has to be written
+## Installation
+
+```sh
+bower install trowel-radio
+```

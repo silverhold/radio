@@ -1,4 +1,4 @@
 Custom Radio
 ============
 
-as to be written
+Has to be written

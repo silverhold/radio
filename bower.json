@@ -1,10 +1,10 @@
 {
-  "name": "trowel-radio",
+  "name": "silverhold-radio",
   "main": "index.html",
-  "homepage": "https://github.com/Trowel/radio",
+  "homepage": "https://github.com/silverhold/radio",
   "authors": [
     "Loic Goyet <loic.goyet@gmail.com>"
   ],
-  "description": "A trowel component to display custom form radios",
+  "description": "A silverhold component to display custom form radios",
   "license": "MIT"
 }

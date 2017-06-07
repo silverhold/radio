@@ -3,5 +3,5 @@
 ## Installation
 
 ```sh
-bower install trowel-radio
+bower install silverhold-radio
 ```
